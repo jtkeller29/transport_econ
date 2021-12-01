@@ -1,0 +1,57 @@
+---
+title: "VIS 2128: Spatial Analysis - Portfolio"
+author: "JT Keller"
+date: "10/12/2021"
+output: 
+  tufte::tufte_html
+---
+
+
+# Maps of Boston
+I am lucky that Boston - our most primary case study here at the GSD - is an inherently interesting subject for me, given that I've been living in the city longer than I've lived anywhere else in my adult life (6 years).
+
+## Interactive map of vacant homes in Cambridge by census block (including point layer of trees)
+This interactive map demonstrates the following skills: 
+
+* Displaying data on an interactive map
+
+[![](thumbnails/inter_vacant_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/inter_vacant_trees.html){target="_blank"}
+
+## Isochrone map of travel time to Allston Village
+This map has been cleaned up in Illustrator because it was included in my team's midterm presentation. 
+
+It demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/isochrone_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/allston_isochrone.pdf){target="_blank"}
+
+## Raster map of accessibility in Greater Boston
+This map shows accessibility an accessibility score based on an continuous distance-decay function of the walking time to the nearest transit stop, decreasing exponentially with distance. 
+
+It demonstrates the following skills:
+
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+
+[![](thumbnails/raster_access_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/raster_access.pdf){target="_blank"}
+
+## Georeferenced map of 1905 Reykjavik, Iceland
+The overlayed polygons designate current buildings in the city, juxtaposed against the city's development in 1905.
+
+[![](thumbnails/georef_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/georef_jt.pdf){target="_blank"}
+
+##  Spatial relationships maps
+This map demonstrates the following skills:
+
+* Calculating and displaying relationships among point and polygon layers based on distance
+* Displaying multiple vector layers on the same map
+
+[![](thumbnails/bus_school_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/bus_school_distance.pdf){target="_blank"}
+
+And this one demonstrates the following:
+
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/bus_census_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/bus_census.pdf){target="_blank"}
