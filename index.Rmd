@@ -1,57 +1,93 @@
 ---
-title: "VIS 2128: Spatial Analysis - Portfolio"
+title: 'Equity, community cohesion, and metropolitan consciousness: exploring the
+  benefits of Taipei''s ''mobility-as-a-service'' model for bikeshare-transit integration'
 author: "JT Keller"
-date: "10/12/2021"
-output: 
+date: "12/2/2021"
+output:
   tufte::tufte_html
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-# Maps of Boston
-I am lucky that Boston - our most primary case study here at the GSD - is an inherently interesting subject for me, given that I've been living in the city longer than I've lived anywhere else in my adult life (6 years).
+# Aim
 
-## Interactive map of vacant homes in Cambridge by census block (including point layer of trees)
-This interactive map demonstrates the following skills: 
+This project is a theoretical inquiry into specific benefits deriving from a "mobility as a service" (MaaS) model of public transportation systems
 
-* Displaying data on an interactive map
+## MaaS
 
-[![](thumbnails/inter_vacant_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/inter_vacant_trees.html){target="_blank"}
+MaaS is an emerging concept “that integrates public transport with other mobility services, such as car sharing, ride sourcing, and bicycle sharing” (Smith, 2020) through a unified digital platform that makes sustainable forms of transportation more efficient for users.
 
-## Isochrone map of travel time to Allston Village
-This map has been cleaned up in Illustrator because it was included in my team's midterm presentation. 
+[![](MaaS.png)](http://www.bipformaas.it/what-is-maas-lets-learn/){target="_blank"}
 
-It demonstrates the following skills:
+(Click image for link to source)
 
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
+# Theoretical framework
 
-[![](thumbnails/isochrone_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/allston_isochrone.pdf){target="_blank"}
+Working from previous discourse on sharing economy models as a form of collaborative reciprocal exchange, I frame this inquiry within the theoretical lens of transportation equity.
 
-## Raster map of accessibility in Greater Boston
-This map shows accessibility an accessibility score based on an continuous distance-decay function of the walking time to the nearest transit stop, decreasing exponentially with distance. 
+## Transportation equity
 
-It demonstrates the following skills:
+I refer to transportation equity as the extent to which transportation systems serve all members of the public regardless of social identity or status.
 
-* Converting between raster layers and vector layers
-* Displaying raster data on a map
+[![](Equality-versus-Equity.png)](https://rsginc.com/project/advancing-transportation-equity/){target="_blank"}
 
-[![](thumbnails/raster_access_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/raster_access.pdf){target="_blank"}
+(Click image for link to source)
 
-## Georeferenced map of 1905 Reykjavik, Iceland
-The overlayed polygons designate current buildings in the city, juxtaposed against the city's development in 1905.
+# Question
 
-[![](thumbnails/georef_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/georef_jt.pdf){target="_blank"}
+This framework leads me to the following question: how might a specific “mobility-as-a-service” model help provide the benefit of community cohesion by fostering an integrated sharing economy platform of collaborative reciprocal exchange?
 
-##  Spatial relationships maps
-This map demonstrates the following skills:
+## Community cohesion
 
-* Calculating and displaying relationships among point and polygon layers based on distance
-* Displaying multiple vector layers on the same map
+Community cohesion – also referred to as “social capital” and “neighboring” – is defined in the Victoria Transport Policy Institute’s Evaluating Public Transit Benefits and Costs Best Practices Guidelines (Litman, 2021) as “the quality of interactions among residents in a community” based on their level of familiarity and care for one another. 
 
-[![](thumbnails/bus_school_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/bus_school_distance.pdf){target="_blank"}
+[![](cohesion.png)]
 
-And this one demonstrates the following:
+Image pulled from Victoria Transport Policy Institute's August 2021 report, "Evaluating Public Transit Benefits and Costs"
 
-* Aggregating point data to a layer of polygons
+# Case Study
 
-[![](thumbnails/bus_census_thumb.png)](https://jtkeller29.github.io/portfolio/fullsize/bus_census.pdf){target="_blank"}
+My case study for this inquiry is Taipei’s bikeshare system, Youbike, and its integration with the city’s Mass Rapid Transit (MRT) system.
+
+## Youbike
+
+[![](ubikestreet.jpg)]
+
+[![](youbike-realtime.gif)](https://bdon.org/youbike-forecast/){target="_blank"}
+
+Click this gif for animated map of Taipei's bikeshare usage (done by a fellow Youbike enthusiast)
+
+## MRT
+
+[![](metro.jpg)]
+
+[![](mrt.png)](https://rsginc.com/project/advancing-transportation-equity/){target="_blank"}
+(Click image for link to source)
+
+# Argument
+
+Specifically, I argue that the city’s deeply rooted cultural norms guiding residents’ shared usage of the MRT provide a social foundation upon which the YouBike system can further develop the benefit of community cohesion for the public as a whole. 
+
+# Method
+
+I formulate this speculative argument through an analysis of existing research on the following features of YouBike and its integration with the MRT:
+
+## The Public-private partnership funding structures of both systems
+
+## The systems' spatial structures, their integration, and users' resulting activity patterns
+
+## residents' behaviors, intentions, and perceptions as users of the systems
+
+# Implications
+
+With this theoretical analysis, I aim to show that a dedicated empirical study of this question would be useful for transportation planners’ ongoing task of providing more sustainable and equitable forms of transportation. 
+
+
+
+
+
+
+
+
